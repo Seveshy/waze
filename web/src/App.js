@@ -2,6 +2,8 @@ import React from 'react';
 import './global.css';
 import './App.css';
 import './Sidebar.css';
+import './Main.css';
+
 
 /**
  * Propriedade: Informações que um componente PAI passa para um componente filho
@@ -39,6 +41,55 @@ function App() {
           <button type="submit">Salvar</button>
         </form>
       </aside>
+
+      <main>
+        <ul>
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars0.githubusercontent.com/u/33661573?s=460&v=4" alt="Daniel Major" />
+              <div className="user-info">
+                <strong>Daniel Major</strong>
+                <span>ReactJS, React Native, NodeJS</span>
+              </div>
+            </header>
+            <p>Desenvolvedor web junior</p>
+            <a href="https://github.com/Seveshy">Acessar perfil no github</a>
+          </li>
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars0.githubusercontent.com/u/33661573?s=460&v=4" alt="Daniel Major" />
+              <div className="user-info">
+                <strong>Daniel Major</strong>
+                <span>ReactJS, React Native, NodeJS</span>
+              </div>
+            </header>
+            <p>Desenvolvedor web junior</p>
+            <a href="https://github.com/Seveshy">Acessar perfil no github</a>
+          </li>
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars0.githubusercontent.com/u/33661573?s=460&v=4" alt="Daniel Major" />
+              <div className="user-info">
+                <strong>Daniel Major</strong>
+                <span>ReactJS, React Native, NodeJS</span>
+              </div>
+            </header>
+            <p>Desenvolvedor web junior</p>
+            <a href="https://github.com/Seveshy">Acessar perfil no github</a>
+          </li>
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars0.githubusercontent.com/u/33661573?s=460&v=4" alt="Daniel Major" />
+              <div className="user-info">
+                <strong>Daniel Major</strong>
+                <span>ReactJS, React Native, NodeJS</span>
+              </div>
+            </header>
+            <p>Desenvolvedor web junior</p>
+            <a href="https://github.com/Seveshy">Acessar perfil no github</a>
+          </li>
+        </ul>
+      </main>
     </div>
   );
 }
