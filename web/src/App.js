@@ -1,6 +1,7 @@
 import React from 'react';
 import './global.css';
-import './App.css'
+import './App.css';
+import './Sidebar.css';
 
 /**
  * Propriedade: Informações que um componente PAI passa para um componente filho
@@ -13,23 +14,23 @@ function App() {
       <aside>
         <strong>Cadastrar</strong>
         <form>
-          <div className="input-block">
+          <div class="input-block">
             <label htmlForm="github_username">Usuário Github</label>
             <input name="github_username" id="github_username" required />
           </div>
           
-          <div className="input-block">
+          <div class="input-block">
             <label htmlForm="techs">Técnologias</label>
             <input name="techs" id="techs" required />
           </div>
           
-          <div className="input-group">
-            <div className="input-block">
+          <div class="input-group">
+            <div class="input-block">
               <label htmlForm="latitude">Latitude</label>
               <input name="latitude" id="latitude" required />
             </div>
 
-            <div className="input-block">
+            <div class="input-block">
               <label htmlForm="longitude">Longitude</label>
               <input name="longitude" id="longitude" required />
             </div>
